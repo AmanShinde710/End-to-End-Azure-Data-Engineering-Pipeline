@@ -1,11 +1,11 @@
 ## 🚀 End-to-End Azure Data Engineering Pipeline
-###📌 Project Overview
+### 📌 Project Overview
 
 This project demonstrates the implementation of a production-style end-to-end data engineering pipeline built on Microsoft Azure. The pipeline covers data ingestion, transformation, orchestration, storage optimization, and governance using modern cloud-native tools.
 
 The goal of this project was to simulate a real-world cloud data architecture capable of handling large-scale datasets efficiently using Azure Data Factory, Azure Databricks, and Azure Data Lake Storage Gen2, following the Medallion Architecture (Bronze, Silver, Gold).
 
-###🏗️ Architecture Design
+### 🏗️ Architecture Design
 
 The project follows a layered architecture to ensure scalability, maintainability, and optimized data processing:
 
@@ -51,7 +51,7 @@ Centralized governance
 
 Time-travel capabilities
 
-###🔄 Data Pipeline Flow
+### 🔄 Data Pipeline Flow
 
 Data ingestion orchestrated using Azure Data Factory (ADF)
 
@@ -67,7 +67,7 @@ Pipelines monitored and scheduled through ADF
 
 Secrets securely managed via Azure Key Vault
 
-###⚙️ Key Features
+### ⚙️ Key Features
 
 ✔ End-to-end cloud data pipeline implementation
 
@@ -85,7 +85,7 @@ Secrets securely managed via Azure Key Vault
 
 ✔ Secure secret management using Azure Key Vault
 
-###📊 Performance & Scale
+### 📊 Performance & Scale
 
 Processed ~1M+ records across multiple layers
 
@@ -93,7 +93,7 @@ Reduced redundant processing using incremental load strategy
 
 Improved transformation efficiency using distributed Spark execution
 
-###🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 Azure Data Factory (ADF)
 
@@ -109,7 +109,7 @@ Databricks Unity Catalog
 
 Azure Key Vault
 
-###🔐 Security & Governance
+### 🔐 Security & Governance
 
 Secrets and credentials stored in Azure Key Vault
 
@@ -119,7 +119,7 @@ Separation of storage layers for better access control
 
 Production-style architecture design principles applied
 
-###📈 What I Learned
+### 📈 What I Learned
 
 Designing scalable cloud-based data architectures
 
