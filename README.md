@@ -5,6 +5,8 @@ This project demonstrates the implementation of a production-style end-to-end da
 
 The goal of this project was to simulate a real-world cloud data architecture capable of handling large-scale datasets efficiently using Azure Data Factory, Azure Databricks, and Azure Data Lake Storage Gen2, following the Medallion Architecture (Bronze, Silver, Gold).
 
+![Successful Pipeline Run](https://github.com/user-attachments/assets/c1f77636-f2ce-41ff-88e7-208f099bff25)
+
 ### 🏗️ Architecture Design
 
 The project follows a layered architecture to ensure scalability, maintainability, and optimized data processing:
